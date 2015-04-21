@@ -554,7 +554,7 @@
       <workItem from="1429625858483" duration="1472000" />
       <workItem from="1429627371996" duration="1094000" />
       <workItem from="1429628525475" duration="20000" />
-      <workItem from="1429628660710" duration="753000" />
+      <workItem from="1429628660710" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="modified folder-structure">
       <created>1429629099410</created>
@@ -566,7 +566,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4641000" />
+    <option name="totallyTimeSpent" value="4917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2182" height="1406" extended-state="6" />
