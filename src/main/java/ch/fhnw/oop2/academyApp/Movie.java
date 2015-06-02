@@ -1,6 +1,7 @@
 package ch.fhnw.oop2.academyApp;
 
 import java.util.Date;
+import java.util.EnumSet;
 
 /**
  * Created by Samuel Kupferschmid on 05/12/2015.
@@ -46,11 +47,11 @@ public class Movie {
         this.titleEnglish = titleEnglish;
     }
 
-    public Genre getGenre() {
+    public EnumSet<Genre> getGenre() {
         return genre;
     }
 
-    public void setGenre(Genre genre) {
+    public void setGenre(EnumSet<Genre> genre) {
         this.genre = genre;
     }
 
@@ -107,7 +108,7 @@ public class Movie {
     private String director;
     private String mainActor;
     private String titleEnglish;
-    private Genre genre;
+    private EnumSet<Genre> genre;
     private int YearOfProduction;
     private String country;
     private int duration;
