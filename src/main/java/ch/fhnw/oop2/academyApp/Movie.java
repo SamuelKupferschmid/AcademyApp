@@ -1,12 +1,13 @@
 package ch.fhnw.oop2.academyApp;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.EnumSet;
 
 /**
  * Created by Samuel Kupferschmid on 05/12/2015.
  */
-public class Movie {
+public class Movie implements Serializable {
     public int getYearOfAward() {
         return yearOfAward;
     }

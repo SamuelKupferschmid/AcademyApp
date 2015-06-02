@@ -5,6 +5,8 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 /**
  * Created by Michael on 6/2/2015.
  */
@@ -19,6 +21,17 @@ public class AAMain extends Application {
     }
 
     public static void main(String[] args) {
+
+
+        AAModel model = new AAModel("movies.dat");
+        try {
+            model.load();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
         launch(args);
 
 

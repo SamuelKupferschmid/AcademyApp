@@ -27,8 +27,11 @@ public class AAModel {
     }
 
     public void load() throws IOException, ClassNotFoundException {
-        InputStream file = new FileInputStream(filename);
-        InputStream buffer = new BufferedInputStream(file);
+
+        File file = new File(filename);
+
+        InputStream fileInput = new FileInputStream(file);
+        InputStream buffer = new BufferedInputStream(fileInput);
         ObjectInputStream input = new ObjectInputStream(buffer);
         try {
             movies = (ObservableList<Movie>) input.readObject();
