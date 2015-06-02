@@ -1,4 +1,8 @@
-package ch.fhnw.oop2.academyApp;
+package ch.fhnw.oop2.academyApp.models;
+
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -8,20 +12,22 @@ import java.util.EnumSet;
  * Created by Samuel Kupferschmid on 05/12/2015.
  */
 public class Movie implements Serializable {
+
+    private StringProperty title;
+
+    public void setTitle(String value) { titleProperty().set(value); }
+    public String getTitle() { return titleProperty().get(); }
+    public StringProperty titleProperty() {
+        if (title == null) title = new SimpleStringProperty(this, "title");
+        return title;
+    }
+
     public int getYearOfAward() {
         return yearOfAward;
     }
 
     public void setYearOfAward(int yearOfAward) {
         this.yearOfAward = yearOfAward;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public String getDirector() {
@@ -105,7 +111,6 @@ public class Movie implements Serializable {
     }
 
     private int yearOfAward;
-    private String title;
     private String director;
     private String mainActor;
     private String titleEnglish;
