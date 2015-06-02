@@ -13,17 +13,17 @@ import java.util.List;
  */
 public class Model {
 
-    private String filename;
+    private File file;
     private ObservableList<Movie> movies;
 
-    public Model(String filename) {
-        this.filename = filename;
+    public Model(File filen) {
+        this.file = file;
     }
 
 
     public void save() throws IOException {
-        FileOutputStream file = new FileOutputStream(filename);
-        OutputStream buffer = new BufferedOutputStream(file);
+        FileOutputStream stream = new FileOutputStream(this.file);
+        OutputStream buffer = new BufferedOutputStream(stream);
         ObjectOutput output = new ObjectOutputStream(buffer);
 
         List<Movie> ml = new ArrayList<>(movies);
@@ -32,8 +32,6 @@ public class Model {
     }
 
     public boolean load() {
-
-        File file = new File(this.filename);
         List<Movie> movieList = null;
         try {
             if (file.exists()) {

@@ -16,6 +16,7 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -28,7 +29,7 @@ public class Controller implements Initializable {
     private Model model;
 
     public Controller() {
-        model = new Model("main/java/ch/fhnw/oop2/academyApp/movies.dat");
+        model = new Model(new File("main/java/ch/fhnw/oop2/academyApp/movies.dat"));
     }
 
     @FXML
@@ -41,7 +42,6 @@ public class Controller implements Initializable {
 
         TableColumn<Movie,String> titleCol = new TableColumn<Movie,String>("Titel");
         titleCol.setCellValueFactory(new PropertyValueFactory("title"));
-
         grid.getColumns().setAll(titleCol);
 
     }
