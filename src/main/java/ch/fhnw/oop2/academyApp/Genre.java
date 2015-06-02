@@ -5,5 +5,9 @@ package ch.fhnw.oop2.academyApp;
  */
 public enum Genre {
     Drama,
-    Thriller
+    Musikfilm,
+    Komoedie,
+    Thriller,
+    Western,
+
 }
