@@ -1,5 +1,7 @@
 package ch.fhnw.oop2.academyApp;
 
+import javafx.collections.ObservableList;
+
 import java.io.*;
 import java.util.List;
 
@@ -9,7 +11,7 @@ import java.util.List;
 public class AAModel {
 
     private String filename;
-    private List<Movie> movies;
+    private ObservableList<Movie> movies;
 
     public AAModel(String filename) {
         this.filename = filename;
@@ -29,10 +31,14 @@ public class AAModel {
         InputStream buffer = new BufferedInputStream(file);
         ObjectInputStream input = new ObjectInputStream(buffer);
         try {
-            movies = (List<Movie>) input.readObject();
+            movies = (ObservableList<Movie>) input.readObject();
         } finally {
             input.close();
         }
+    }
+
+    public ObservableList<Movie> getMovies(){
+        return movies;
     }
 
 }
