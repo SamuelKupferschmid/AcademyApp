@@ -16,7 +16,7 @@ public class Model {
     private File file;
     private ObservableList<Movie> movies;
 
-    public Model(File filen) {
+    public Model(File file) {
         this.file = file;
     }
 
@@ -34,34 +34,34 @@ public class Model {
     public boolean load() {
         List<Movie> movieList = null;
         try {
-            if (file.exists()) {
-                ObjectInputStream input = null;
-                try {
-                    InputStream fileInput = new FileInputStream(file);
-                    InputStream buffer = new BufferedInputStream(fileInput);
-                    input = new ObjectInputStream(buffer);
-                    movieList = (List<Movie>) input.readObject();
+            if (!file.exists()) {
+                return false;
+            }
+            ObjectInputStream input = null;
+            try {
+                InputStream fileInput = new FileInputStream(file);
+                InputStream buffer = new BufferedInputStream(fileInput);
+                input = new ObjectInputStream(buffer);
+                movieList = (List<Movie>) input.readObject();
 
-                } catch (Exception e) {
-                    movieList = new ArrayList<>();
-                    return false;
-                } finally {
-                    if (input != null) {
-                        try {
-                            input.close();
-                        } catch (IOException e) {
-                            return false;
-                        }
+            } catch (Exception e) {
+                return false;
+            } finally {
+                if (input != null) {
+                    try {
+                        input.close();
+                    } catch (IOException e) {
+                        return false;
                     }
                 }
-            } else {
-                movieList = new ArrayList<>();
-                return false;
             }
 
             return true;
-        }
-        finally {
+
+        } finally {
+            if (movieList == null) {
+                movieList = new ArrayList<Movie>();
+            }
             movies = FXCollections.observableList(movieList);
         }
     }

@@ -26,10 +26,10 @@ public class Main extends Application {
     public void start(final Stage stage) throws Exception
     {
         FXMLLoader f = new FXMLLoader();
-        final Parent fxmlRoot = (Parent)f.load(new FileInputStream(new File("main/java/ch/fhnw/oop2/academyApp/main.fxml")));
+        final Parent fxmlRoot = (Parent)f.load(new FileInputStream(new File("main/views/main.fxml")));
         controller = f.getController();
         Scene scene = new Scene(fxmlRoot);
-        scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+        scene.getStylesheets().add("main/resources/application.css");
         stage.setScene(scene);
         stage.show();
 
