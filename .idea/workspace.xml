@@ -6,756 +6,11 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598432b3-cd84-4815-a59f-c4679f0fc700" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1931.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1933.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1935.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1936.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1937.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1939.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1940.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1941.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1942.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1944.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1946.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1947.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1948.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1950.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1951.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1952.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1953.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1954.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1955.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1956.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1958.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1959.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1960.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1961.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1962.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1963.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1964.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1965.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1966.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1967.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1968.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1969.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1970.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1971.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1972.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1973.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1974.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1975.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1976.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1977.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1978.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1979.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1980.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1981.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1982.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1983.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1984.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1985.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1986.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1987.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1988.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1989.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1990.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1991.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1992.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1993.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1994.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1995.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1996.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1997.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1998.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/1999.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2000.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2001.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2002.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2003.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2004.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2005.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2006.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2007.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2008.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2009.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2010.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2011.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/trailer/2012.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/38.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/39.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/41.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/44.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/47.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/48.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/49.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/50.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/51.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/52.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/53.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/54.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/55.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/56.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/57.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/58.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/59.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/60.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/61.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/62.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/63.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/64.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/65.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/66.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/67.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/68.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/69.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/70.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/71.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/72.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/73.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/74.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/75.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/76.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/77.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/78.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/79.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/80.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/81.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/82.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/marks/Mark_Blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/marks/Mark_Empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/marks/Mark_Green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/marks/Mark_Orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/marks/Mark_Red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/marks/Mark_Yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Minus_Pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/Oscar-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Plus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Plus_Pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Redo_Pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Save_Pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/icons/Undo_Pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_ASEAN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_ASEAN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_African Union.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_African Union.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Alderney.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Alderney.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Arab League.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Arab League.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Basque Country.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Basque Country.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_CARICOM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_CARICOM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_CIS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_CIS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Catalonia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Catalonia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Commonwealth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Commonwealth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_England.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_England.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_European Union.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_European Union.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_FAO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_FAO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Galicia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Galicia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_IAEA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_IAEA.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_IHO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_IHO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Islamic Conference.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Islamic Conference.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Kosovo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Kosovo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_NATO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_NATO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Northern Cyprus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Northern Cyprus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Northern Ireland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Northern Ireland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_OAS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_OAS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_OECD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_OECD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_OPEC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_OPEC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Olimpic Movement.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Olimpic Movement.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Quebec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Quebec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Red Cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Red Cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Scotland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Scotland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Somaliland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Somaliland.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Tristan-da-Cunha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Tristan-da-Cunha.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_UNESCO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_UNESCO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_UNICEF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_UNICEF.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_United Nations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_United Nations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_WHO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_WHO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_WTO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_WTO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/_Wales.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/_Wales.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/af.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/af.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ai.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/al.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/al.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/am.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/am.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/an.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/an.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/aq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/aq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/as.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/as.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/at.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/at.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/au.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/au.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/aw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/aw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ax.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ax.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/az.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/az.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/be.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/be.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/br.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/br.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/by.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/by.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/bz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/bz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ci.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ci.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ck.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ck.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/co.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/co.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/cz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/cz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/de.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/de.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/dj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/dj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/dk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/dk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/dm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/dm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/do.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/dz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/dz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ec.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/eg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/eg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/eh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/eh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/er.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/er.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/es.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/es.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/et.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/et.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/fi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/fi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/fj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/fj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/fk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/fk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/fm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/fm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/fo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/fo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/fr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/fr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ga.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/gy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/gy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/hk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/hk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/hm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/hm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/hn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/hn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/hr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/hr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ht.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ht.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/hu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/hu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/id.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/id.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/il.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/il.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/im.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/im.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/io.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/io.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/iq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/iq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ir.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ir.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/is.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/is.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/it.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/it.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/je.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/je.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/jm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/jm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/jo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/jo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/jp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/jp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ke.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/kg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/kg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/kh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/kh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ki.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/km.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/km.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/kn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/kn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/kp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/kp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/kr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/kr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/kw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/kw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ky.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ky.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/kz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/kz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/la.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/la.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/lb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/lc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/lc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/li.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/li.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/lk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/lk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/lr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/lr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/lu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/lu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/lv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/lv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ly.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ly.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/md.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/md.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/me.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/me.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ml.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ml.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ms.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ms.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/my.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/my.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/mz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/mz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/na.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/na.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/nc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/nc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/nf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/nf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ng.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ng.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ni.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ni.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/nl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/nl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/poster/no_poster.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/np.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/np.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/nr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/nr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/nu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/nu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/nz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/nz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/om.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/om.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/pw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/pw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/py.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/py.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/qa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/qa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/re.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/re.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/rs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/rs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/rw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/rw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/si.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/si.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/so.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/so.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ss.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/st.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/st.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/sz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/sz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/td.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/td.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/th.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/th.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/to.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/to.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/tz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/tz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ug.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/um.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/um.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/us.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/us.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/uy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/uy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/uz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/uz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/va.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/va.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/vc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/vc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ve.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ve.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/vg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/vg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/vi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/vi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/vn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/vn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/vu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/vu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/wf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/wf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ws.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ws.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/ye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/ye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/yt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/yt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/za.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/za.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/zm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/zm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/16/zw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/flags_iso/24/zw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/data/movies.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java" />
+    <list default="true" id="598432b3-cd84-4815-a59f-c4679f0fc700" name="Default" comment="applied MVC pattern">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/academyApp/models/ModelTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/AcademyApp/ch/fhnw/oop2/academyApp/movies.dat" afterPath="$PROJECT_DIR$/out/production/AcademyApp/ch/fhnw/oop2/academyApp/movies.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AcademyApp.iws" />
@@ -779,14 +34,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AAModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
+      <file leaf-file-name="Model.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#1968#1969#0" expanded="true" />
+                <element signature="e#1997#1998#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModelTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/academyApp/models/ModelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -801,41 +70,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AAView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAView.java">
+      <file leaf-file-name="movies.dat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movies.dat">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="0" column="96" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="370" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="83" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#899#900#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AAController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AAMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53865653">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.28752643">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -843,13 +129,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Genre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
+      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -860,6 +149,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -876,11 +166,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAMain.java" />
+        <option value="$PROJECT_DIR$/movies.dat" />
         <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/movies.dat" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/academyApp/models/ModelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java" />
       </list>
     </option>
   </component>
@@ -892,10 +190,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
+    <option name="x" value="3229" />
     <option name="y" value="-11" />
-    <option name="width" value="2182" />
-    <option name="height" value="1406" />
+    <option name="width" value="2902" />
+    <option name="height" value="1558" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -920,9 +218,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -938,6 +236,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MichealIneichen-SamuelKupferschmid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MichealIneichen-SamuelKupferschmid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MichealIneichen-SamuelKupferschmid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -973,11 +297,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MichealIneichen-SamuelKupferschmid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MichealIneichen-SamuelKupferschmid" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="academyApp" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -986,7 +324,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -997,19 +335,38 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
-  <component name="RunManager" selected="Application.AAMain">
-    <configuration default="false" name="AAMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\src\java\MichealIneichen-SamuelKupferschmid\src\main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\src\java\MichealIneichen-SamuelKupferschmid\src\main" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ch.fhnw.oop2.academyApp.models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ch.fhnw.oop2.academyApp.AAMain" />
+      <option name="MAIN_CLASS_NAME" value="ch.fhnw.oop2.academyApp.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/src" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1292,6 +649,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -1301,11 +664,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.AAMain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.AAMain" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -1326,6 +689,8 @@
       <workItem from="1433247279271" duration="2449000" />
       <workItem from="1433251451701" duration="28000" />
       <workItem from="1433252925976" duration="1115000" />
+      <workItem from="1433254079152" duration="12703000" />
+      <workItem from="1433276060038" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="added Model Classes">
       <created>1431443984617</created>
@@ -1351,42 +716,54 @@
       <option name="project" value="LOCAL" />
       <updated>1433253131418</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="applied MVC pattern">
+      <created>1433275206283</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1433275206283</updated>
+    </task>
+    <task id="LOCAL-00006" summary="moved resources">
+      <created>1433277076207</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1433277076207</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9769000" />
+    <option name="totallyTimeSpent" value="23453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2182" height="1406" extended-state="6" />
-    <editor active="false" />
+    <frame x="3229" y="-11" width="2902" height="1558" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32732517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955465" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29127613" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="GhcMod" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18268315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13607371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cabal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1404,10 +781,14 @@
     <MESSAGE value="added Model Classes" />
     <MESSAGE value="implemented serializer in Model" />
     <MESSAGE value="added resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="added resources" />
+    <MESSAGE value="applied MVC pattern" />
+    <MESSAGE value="moved resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved resources" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1415,322 +796,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33864543">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1743,33 +841,567 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/AAMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53865653">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/javafx-src.zip!/javafx/collections/FXCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3565341">
+          <caret line="133" column="64" selection-start-line="133" selection-start-column="64" selection-end-line="133" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movies.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="96" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="370" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/data/movies.csv">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3170163">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/movies.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/fhnw/oop2/academyApp/models/ModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="83" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/movies.csv">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018722467">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28752643">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AcademyApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
