@@ -1,6 +1,5 @@
 package ch.fhnw.oop2.academyApp.models;
 
-import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
@@ -63,11 +62,11 @@ public class Movie implements Serializable {
     }
 
     public int getYearOfProduction() {
-        return YearOfProduction;
+        return yearOfProduction;
     }
 
     public void setYearOfProduction(int yearOfProduction) {
-        YearOfProduction = yearOfProduction;
+        this.yearOfProduction = yearOfProduction;
     }
 
     public String getCountry() {
@@ -115,7 +114,7 @@ public class Movie implements Serializable {
     private String mainActor;
     private String titleEnglish;
     private EnumSet<Genre> genre;
-    private int YearOfProduction;
+    private int yearOfProduction;
     private String country;
     private int duration;
     private int fsk;
