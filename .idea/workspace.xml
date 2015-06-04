@@ -6,11 +6,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598432b3-cd84-4815-a59f-c4679f0fc700" name="Default" comment="applied MVC pattern">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AcademyApp.iml" afterPath="$PROJECT_DIR$/AcademyApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java" afterPath="$PROJECT_DIR$/src/main/java/ch/fhnw/oop2/academyApp/models/Movie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/views/main.fxml" afterPath="$PROJECT_DIR$/src/main/views/main.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="598432b3-cd84-4815-a59f-c4679f0fc700" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AcademyApp.iws" />
@@ -637,7 +633,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433277076207</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed view">
+      <created>1433456346693</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1433456346693</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -692,7 +694,8 @@
     <MESSAGE value="added resources" />
     <MESSAGE value="applied MVC pattern" />
     <MESSAGE value="moved resources" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved resources" />
+    <MESSAGE value="changed view" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
