@@ -36,47 +36,57 @@ public class Controller implements Initializable {
     }
 
     @FXML
-    TableView<Movie> grid;
+    private TableView<Movie> grid;
 
     @FXML
-    TextField director;
+    private TableColumn<Movie,String> titleCol;
+
+    @FXML
+    private TableColumn<Movie,Integer> yearOfAwardCol;
+
+    @FXML
+    private TableColumn<Movie,String> directorCol;
+
+    @FXML
+    private TableColumn<Movie,String> mainActorCol;
+
+    @FXML
+    private TableColumn<Movie,String> titleEnglishCol;
+
+    @FXML
+    private TableColumn<Movie,Integer> yearOfProductionCol;
+
+    @FXML
+    private TableColumn<Movie,String> countryCol;
+
+    @FXML
+    private TableColumn<Movie,Integer> durationCol;
+
+    @FXML
+    private TableColumn<Movie,Integer> fskCol;
+
+    @FXML
+    private TableColumn<Movie,Integer> oscarCntCol;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        grid.setEditable(true);
         grid.setItems(model.getMovieList());
 
-        TableColumn<Movie, String> titleCol = new TableColumn<Movie, String>("Title (German)");
         titleCol.setCellValueFactory(new PropertyValueFactory("title"));
 
         TableColumn<Movie, String> yearOfAwardCol = new TableColumn<Movie, String>("Year (Award)");
         yearOfAwardCol.setCellValueFactory(new PropertyValueFactory("yearOfAward"));
+        yearOfAwardCol.setEditable(true);
 
-        TableColumn<Movie, String> director = new TableColumn<Movie, String>("Director");
-        director.setCellValueFactory(new PropertyValueFactory("director"));
-
-        TableColumn<Movie, String> mainActorCol = new TableColumn<Movie, String>("Main Actor");
+        directorCol.setCellValueFactory(new PropertyValueFactory("director"));
         mainActorCol.setCellValueFactory(new PropertyValueFactory("mainActor"));
-
-        TableColumn<Movie, String> titleEnglishCol = new TableColumn<Movie, String>("Title (English)");
         titleEnglishCol.setCellValueFactory(new PropertyValueFactory("titleEnglish"));
-
-        TableColumn<Movie, String> yearOfProductionCol = new TableColumn<Movie, String>("Year (Production)");
         yearOfProductionCol.setCellValueFactory(new PropertyValueFactory("yearOfProduction"));
-
-        TableColumn<Movie, String> countryCol = new TableColumn<Movie, String>("Country");
         countryCol.setCellValueFactory(new PropertyValueFactory("country"));
-
-        TableColumn<Movie, String> durartionCol = new TableColumn<Movie, String>("Duration");
-        durartionCol.setCellValueFactory(new PropertyValueFactory("durartion"));
-
-        TableColumn<Movie, String> fskCol = new TableColumn<Movie, String>("FSK");
+        durationCol.setCellValueFactory(new PropertyValueFactory("duration"));
         fskCol.setCellValueFactory(new PropertyValueFactory("fsk"));
-
-        TableColumn<Movie, String> oscarCntCol = new TableColumn<Movie, String>("# of Oscars");
         oscarCntCol.setCellValueFactory(new PropertyValueFactory("oscarCnt"));
-
-        grid.getColumns().setAll(titleCol, yearOfAwardCol, director, mainActorCol,titleEnglishCol,yearOfProductionCol,countryCol,durartionCol,fskCol,oscarCntCol);
-
 
         grid.selectionModelProperty().addListener(this::onSelectionChanged);
     }

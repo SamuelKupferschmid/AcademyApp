@@ -25,10 +25,16 @@
                      <children>
                         <TableView fx:id="grid" layoutX="14.0" layoutY="-2.0" minWidth="200.0" prefHeight="560.0" prefWidth="323.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0">
                            <columns>
-                              <TableColumn id="year" fx:id="yearcolumn" prefWidth="75.0" text="Year" />
-                              <TableColumn id="title" fx:id="titlecolumn" prefWidth="75.0" text="Title" />
-                              <TableColumn id="director" fx:id="directorcolumn" prefWidth="75.0" text="Director" />
-                              <TableColumn id="mainactor" fx:id="mainactorcolumn" prefWidth="75.0" text="MainActor" />
+                              <TableColumn id="title" fx:id="titleCol" prefWidth="75.0" text="Title" />
+                              <TableColumn id="year" fx:id="yearOfAwardCol" prefWidth="75.0" text="Year" />
+                              <TableColumn id="director" fx:id="directorCol" prefWidth="75.0" text="Director" />
+                              <TableColumn id="mainactor" fx:id="mainActorCol" prefWidth="75.0" text="MainActor" />
+                              <TableColumn fx:id="titleEnglishCol" prefWidth="75.0" text="Title (English)" />
+                              <TableColumn fx:id="yearOfProductionCol" prefWidth="75.0" text="Year (Production)" />
+                              <TableColumn fx:id="countryCol" prefWidth="75.0" text="Country" />
+                              <TableColumn fx:id="durationCol" prefWidth="75.0" text="Duration" />
+                              <TableColumn fx:id="fskCol" prefWidth="75.0" text="FSK" />
+                              <TableColumn fx:id="oscarCntCol" prefWidth="75.0" text="Oscars (#)" />
                            </columns>
                         </TableView>
                      </children>
