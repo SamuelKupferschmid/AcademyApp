@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="598432b3-cd84-4815-a59f-c4679f0fc700" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/views/main.fxml" afterPath="$PROJECT_DIR$/src/main/views/main.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AcademyApp.iws" />
@@ -630,7 +629,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433719873214</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="layout improvements">
+      <created>1433722454373</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1433722454373</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -687,7 +692,8 @@
     <MESSAGE value="moved resources" />
     <MESSAGE value="changed view" />
     <MESSAGE value="fxids set" />
-    <option name="LAST_COMMIT_MESSAGE" value="fxids set" />
+    <MESSAGE value="layout improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout improvements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
