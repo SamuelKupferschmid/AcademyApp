@@ -1,5 +1,6 @@
 package ch.fhnw.oop2.academyApp.models;
 
+import com.sun.istack.internal.NotNull;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.ListView;
@@ -16,6 +17,10 @@ public class Model {
     private File file;
     private ObservableList<Movie> movies;
 
+    public Model(File file) {
+        this.file = file;
+    }
+
 
     public void save() throws IOException {
         FileOutputStream stream = new FileOutputStream(this.file);
@@ -27,8 +32,7 @@ public class Model {
         output.close();
     }
 
-    public boolean load(File file) {
-        this.file = file;
+    public boolean load() {
 
         List<Movie> movieList = null;
         try {
@@ -65,10 +69,40 @@ public class Model {
     }
 
     public ObservableList<Movie> getMovieList() {
+        if(movies == null){
+            load();
+        }
         return movies;
     }
 
-    public void loadFromCsv(File file) {
+    public boolean loadFromCsv(@NotNull File file) {
+        if(!file.exists()){
+            return false;
+        }
+        List<Movie> movies = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            br.readLine();//flush the captions
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] splits = line.split(";");
+                if(splits.length != 13){
+                    return false;
+                }
+                Movie m = new Movie();
+                m.titleProperty().set(splits[1]);
+
+                movies.add(m);
+            }
+
+            getMovieList().addAll(movies);
+
+            return true;
+
+        } catch (FileNotFoundException e) {
+            return false;
+        } catch (IOException e) {
+            return false;
+        }
     }
 
 }

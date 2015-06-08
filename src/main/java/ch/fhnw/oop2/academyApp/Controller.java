@@ -31,7 +31,8 @@ public class Controller implements Initializable {
     private Model model;
 
     public Controller() {
-        model = new Model();
+        model = new Model(new File("main/java/ch/fhnw/oop2/academyApp/movies.dat"));
+        model.loadFromCsv(new File("test/resources/movies.csv"));
     }
 
     @FXML
@@ -42,7 +43,6 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        model.load(new File("main/java/ch/fhnw/oop2/academyApp/movies.dat"));
         grid.setItems(model.getMovieList());
 
         TableColumn<Movie, String> titleCol = new TableColumn<Movie, String>("Titel");

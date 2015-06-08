@@ -1,5 +1,6 @@
 package ch.fhnw.oop2.academyApp.models;
 
+import javafx.collections.ObservableList;
 import junit.framework.TestCase;
 
 import java.io.File;
@@ -13,7 +14,11 @@ public class ModelTest extends TestCase {
 
     public void setUp() throws Exception {
         super.setUp();
-        InputStream stream = ModelTest.class.getResourceAsStream("movie.csv");
+        csv = new File("src/test/resources/movies.csv");
+
+
+        model = new Model(File.createTempFile("academyApp","data"));
+        model.load();
     }
 
     public void tearDown() throws Exception {
@@ -22,7 +27,7 @@ public class ModelTest extends TestCase {
 
     File csv;
     File data;
-
+    Model model;
 
     public void testSave() throws Exception {
 
@@ -36,7 +41,13 @@ public class ModelTest extends TestCase {
 
     }
 
-    public void testLoadFromCsv() throws Exception {
-        Model m = new Model();
-        m.loadFromCsv(csv);    }
+    public void testLoadFromCsv_LoadsAll() throws Exception {
+
+        if(!model.loadFromCsv(csv)){
+            fail("CSV not loaded");
+        }
+        ObservableList<Movie> list = model.getMovieList();
+
+       assertEquals(83, list.stream().count());
+    }
 }
