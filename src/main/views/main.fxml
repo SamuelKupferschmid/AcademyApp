@@ -23,7 +23,7 @@
               <items>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="291.0" prefWidth="19.0" SplitPane.resizableWithParent="false">
                      <children>
-                        <TableView fx:id="grid" layoutX="14.0" layoutY="-2.0" minWidth="200.0" prefHeight="560.0" prefWidth="323.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0">
+                        <TableView fx:id="grid" editable="true" layoutX="14.0" layoutY="-2.0" minWidth="200.0" prefHeight="560.0" prefWidth="323.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-2.0">
                            <columns>
                               <TableColumn id="title" fx:id="titleCol" prefWidth="75.0" text="Title" />
                               <TableColumn id="year" fx:id="yearOfAwardCol" prefWidth="75.0" text="Year" />

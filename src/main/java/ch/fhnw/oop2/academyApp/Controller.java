@@ -2,21 +2,14 @@ package ch.fhnw.oop2.academyApp;
 
 import ch.fhnw.oop2.academyApp.models.Model;
 import ch.fhnw.oop2.academyApp.models.Movie;
-import javafx.application.Application;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
-import javafx.scene.control.ListView;
+import javafx.scene.control.Slider;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
-import javafx.stage.Stage;
-
 
 import java.io.File;
 import java.io.IOException;
@@ -25,7 +18,7 @@ import java.util.ResourceBundle;
 
 /**
  * Created by Michael on 5/12/2015.
-*/
+ */
 public class Controller implements Initializable {
 
     private Model model;
@@ -39,43 +32,67 @@ public class Controller implements Initializable {
     private TableView<Movie> grid;
 
     @FXML
-    private TableColumn<Movie,String> titleCol;
+    private TableColumn<Movie, String> titleCol;
 
     @FXML
-    private TableColumn<Movie,Integer> yearOfAwardCol;
+    private TableColumn<Movie, Integer> yearOfAwardCol;
 
     @FXML
-    private TableColumn<Movie,String> directorCol;
+    private TableColumn<Movie, String> directorCol;
 
     @FXML
-    private TableColumn<Movie,String> mainActorCol;
+    private TableColumn<Movie, String> mainActorCol;
 
     @FXML
-    private TableColumn<Movie,String> titleEnglishCol;
+    private TableColumn<Movie, String> titleEnglishCol;
 
     @FXML
-    private TableColumn<Movie,Integer> yearOfProductionCol;
+    private TableColumn<Movie, Integer> yearOfProductionCol;
 
     @FXML
-    private TableColumn<Movie,String> countryCol;
+    private TableColumn<Movie, String> countryCol;
 
     @FXML
-    private TableColumn<Movie,Integer> durationCol;
+    private TableColumn<Movie, Integer> durationCol;
 
     @FXML
-    private TableColumn<Movie,Integer> fskCol;
+    private TableColumn<Movie, Integer> fskCol;
 
     @FXML
-    private TableColumn<Movie,Integer> oscarCntCol;
+    private TableColumn<Movie, Integer> oscarCntCol;
+
+    @FXML
+    private TextField title;
+
+    @FXML
+    private TextField director;
+
+    @FXML
+    private TextField mainactor;
+
+    @FXML
+    private TextField duration;
+
+    @FXML
+    private TextField fsk;
+
+    @FXML
+    private TextField genre;
+
+    @FXML
+    private TextField yearOfAward;
+
+    @FXML
+    private TextField yearOfProduction;
+
+    @FXML
+    private Slider oscarCnt;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        grid.setEditable(true);
-        grid.setItems(model.getMovieList());
 
         titleCol.setCellValueFactory(new PropertyValueFactory("title"));
 
-        TableColumn<Movie, String> yearOfAwardCol = new TableColumn<Movie, String>("Year (Award)");
         yearOfAwardCol.setCellValueFactory(new PropertyValueFactory("yearOfAward"));
         yearOfAwardCol.setEditable(true);
 
@@ -88,11 +105,16 @@ public class Controller implements Initializable {
         fskCol.setCellValueFactory(new PropertyValueFactory("fsk"));
         oscarCntCol.setCellValueFactory(new PropertyValueFactory("oscarCnt"));
 
-        grid.selectionModelProperty().addListener(this::onSelectionChanged);
+        grid.setItems(model.getMovieList());
+        grid.getSelectionModel().selectedItemProperty().addListener(this::onSelectionChanged);
     }
 
-    private void onSelectionChanged(ObservableValue<? extends TableView.TableViewSelectionModel<Movie>> observable, TableView.TableViewSelectionModel<Movie> oldValue, TableView.TableViewSelectionModel<Movie> newValue) {
+    private void onSelectionChanged(ObservableValue<? extends Movie> observable, Movie oldValue, Movie newValue) {
+        title.textProperty().bindBidirectional(newValue.titleProperty());
+        director.textProperty().bindBidirectional(newValue.directorProperty());
+        mainactor.textProperty().bindBidirectional(newValue.mainActorProperty());
 
+        oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
     }
 
     /**
