@@ -16,10 +16,6 @@ public class Model {
     private File file;
     private ObservableList<Movie> movies;
 
-    public Model(File file) {
-        this.file = file;
-    }
-
 
     public void save() throws IOException {
         FileOutputStream stream = new FileOutputStream(this.file);
@@ -31,7 +27,9 @@ public class Model {
         output.close();
     }
 
-    public boolean load() {
+    public boolean load(File file) {
+        this.file = file;
+
         List<Movie> movieList = null;
         try {
             if (!file.exists()) {
@@ -70,10 +68,7 @@ public class Model {
         return movies;
     }
 
-    public void loadFromCsv(String filename) {
-        File file = new File(filename);
-
-
+    public void loadFromCsv(File file) {
     }
 
 }
