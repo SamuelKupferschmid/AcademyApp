@@ -45,14 +45,43 @@ public class Controller implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         grid.setItems(model.getMovieList());
 
-        TableColumn<Movie, String> titleCol = new TableColumn<Movie, String>("Titel");
+        TableColumn<Movie, String> titleCol = new TableColumn<Movie, String>("Title (German)");
         titleCol.setCellValueFactory(new PropertyValueFactory("title"));
-        grid.getColumns().setAll(titleCol);
-        grid.selectionModelProperty().addListener((observableValue, oldValue, newValue) -> {
-        });
+
+        TableColumn<Movie, String> yearOfAwardCol = new TableColumn<Movie, String>("Year (Award)");
+        yearOfAwardCol.setCellValueFactory(new PropertyValueFactory("yearOfAward"));
+
+        TableColumn<Movie, String> director = new TableColumn<Movie, String>("Director");
+        director.setCellValueFactory(new PropertyValueFactory("director"));
+
+        TableColumn<Movie, String> mainActorCol = new TableColumn<Movie, String>("Main Actor");
+        mainActorCol.setCellValueFactory(new PropertyValueFactory("mainActor"));
+
+        TableColumn<Movie, String> titleEnglishCol = new TableColumn<Movie, String>("Title (English)");
+        titleEnglishCol.setCellValueFactory(new PropertyValueFactory("titleEnglish"));
+
+        TableColumn<Movie, String> yearOfProductionCol = new TableColumn<Movie, String>("Year (Production)");
+        yearOfProductionCol.setCellValueFactory(new PropertyValueFactory("yearOfProduction"));
+
+        TableColumn<Movie, String> countryCol = new TableColumn<Movie, String>("Country");
+        countryCol.setCellValueFactory(new PropertyValueFactory("country"));
+
+        TableColumn<Movie, String> durartionCol = new TableColumn<Movie, String>("Duration");
+        durartionCol.setCellValueFactory(new PropertyValueFactory("durartion"));
+
+        TableColumn<Movie, String> fskCol = new TableColumn<Movie, String>("FSK");
+        fskCol.setCellValueFactory(new PropertyValueFactory("fsk"));
+
+        TableColumn<Movie, String> oscarCntCol = new TableColumn<Movie, String>("# of Oscars");
+        oscarCntCol.setCellValueFactory(new PropertyValueFactory("oscarCnt"));
+
+        grid.getColumns().setAll(titleCol, yearOfAwardCol, director, mainActorCol,titleEnglishCol,yearOfProductionCol,countryCol,durartionCol,fskCol,oscarCntCol);
+
+
+        grid.selectionModelProperty().addListener(this::onSelectionChanged);
     }
 
-    private void onSelectionChanged(ObservableValue<TableView.TableViewSelectionModel<Movie>> observable, TableView.TableViewSelectionModel<Movie> oldValue, TableView.TableViewSelectionModel<Movie> newValue) {
+    private void onSelectionChanged(ObservableValue<? extends TableView.TableViewSelectionModel<Movie>> observable, TableView.TableViewSelectionModel<Movie> oldValue, TableView.TableViewSelectionModel<Movie> newValue) {
 
     }
 
@@ -62,6 +91,7 @@ public class Controller implements Initializable {
     public void saveModel() {
         try {
             model.save();
+            new File("main/java/ch/fhnw/oop2/academyApp/movies.dat").delete();
         } catch (IOException e) {
             e.printStackTrace();
         }

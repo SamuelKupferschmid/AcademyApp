@@ -90,6 +90,17 @@ public class Model {
                 }
                 Movie m = new Movie();
                 m.titleProperty().set(splits[1]);
+                m.yearOfAwardProperty().set(Integer.valueOf(splits[2]));
+                m.directorProperty().set(splits[3]);
+                m.mainActorProperty().set(splits[4]);
+                m.titleEnglishProperty().set(splits[5]);
+                m.yearOfProductionProperty().set(Integer.valueOf(splits[6]));
+                m.countryProperty().set(splits[7]);
+                m.durationProperty().set(Integer.valueOf(splits[8]));
+                m.fskProperty().set(Integer.valueOf(splits[9]));
+                //genre
+                //release
+                m.oscarCntProperty().set(Integer.valueOf(splits[12]));
 
                 movies.add(m);
             }
