@@ -4,6 +4,7 @@ import ch.fhnw.oop2.academyApp.models.Model;
 import ch.fhnw.oop2.academyApp.models.Movie;
 import javafx.beans.binding.Bindings;
 import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Slider;
@@ -11,6 +12,8 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.FileChooser;
+import javafx.stage.Stage;
 import javafx.util.converter.NumberStringConverter;
 
 import java.io.File;
@@ -24,6 +27,7 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
 
     private Model model;
+    private Stage stage;
 
     public Controller() {
         model = new Model(new File("main/java/ch/fhnw/oop2/academyApp/movies.dat"));
@@ -115,6 +119,10 @@ public class Controller implements Initializable {
         //Bindings.bindBidirectional(title, grid.getSelectionModel().selectionModeProperty());
     }
 
+    public void setStage(Stage stage){
+        this.stage = stage;
+    }
+
     private void onSelectionChanged(ObservableValue<? extends Movie> observable, Movie oldValue, Movie newValue) {
 
         if (oldValue != null) {
@@ -136,6 +144,37 @@ public class Controller implements Initializable {
         yearOfAward.textProperty().bindBidirectional(newValue.yearOfAwardProperty(), new NumberStringConverter("####"));
         yearOfProduction.textProperty().bindBidirectional(newValue.yearOfProductionProperty(), new NumberStringConverter("####"));
         oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
+    }
+
+    @FXML
+    private void importBtnClick(ActionEvent event) {
+        FileChooser fc = new FileChooser();
+        fc.setTitle("Import .csv File");
+        fc.setSelectedExtensionFilter(new FileChooser.ExtensionFilter(".csv-File","csv"));
+        File file = fc.showOpenDialog(stage);
+    }
+
+    @FXML
+    private void newBtnClick(ActionEvent event) {
+        Movie m = new Movie();
+        grid.getItems().add(m);
+        grid.getSelectionModel().select(m);
+    }
+
+    @FXML
+    private void saveBtnClick(ActionEvent event) {
+
+        try {
+            model.save();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @FXML
+    private void deleteBtnClick(ActionEvent event) {
+        Movie m = grid.getSelectionModel().getSelectedItem();
+        grid.getItems().remove(m);
     }
 
     /**

@@ -28,6 +28,7 @@ public class Main extends Application {
         FXMLLoader f = new FXMLLoader();
         final Parent fxmlRoot = (Parent)f.load(new FileInputStream(new File("main/views/main.fxml")));
         controller = f.getController();
+        controller.setStage(stage);
         Scene scene = new Scene(fxmlRoot);
         scene.getStylesheets().add("main/resources/application.css");
         stage.setScene(scene);
