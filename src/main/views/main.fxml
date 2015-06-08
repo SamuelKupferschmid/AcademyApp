@@ -14,9 +14,10 @@
          <children>
             <ToolBar maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="800.0">
               <items>
-                <Button mnemonicParsing="false" text="Save" />
-                  <Button mnemonicParsing="false" text="New" />
-                  <Button mnemonicParsing="false" text="Delete" />
+                <Button mnemonicParsing="false" onAction="#saveBtnClick" text="Save" />
+                  <Button mnemonicParsing="false" onAction="#newBtnClick" text="New" />
+                  <Button mnemonicParsing="false" onAction="#deleteBtnClick" text="Delete" />
+                  <Button fx:id="importBtn" mnemonicParsing="false" onAction="#importBtnClick" text="Import" />
               </items>
             </ToolBar>
             <SplitPane dividerPositions="0.4080267558528428" prefHeight="560.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
