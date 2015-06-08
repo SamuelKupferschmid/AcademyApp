@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.fhnw.oop2.academyApp.Controller">
    <children>
-      <ToolBar maxHeight="50.0" minHeight="50.0" prefHeight="50.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <ToolBar fx:id="toolbar" maxHeight="50.0" minHeight="50.0" prefHeight="50.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <items>
           <Button maxHeight="36.0" maxWidth="36.0" minHeight="36.0" minWidth="36.0" mnemonicParsing="false" onAction="#saveBtnClick" prefHeight="36.0" prefWidth="36.0">
                <graphic>
@@ -76,8 +76,8 @@
                     <items>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="42.0" prefWidth="467.0">
                            <children>
-                              <ImageView fx:id="poster" fitHeight="216.0" fitWidth="200.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
-                              <FlowPane layoutX="223.0" layoutY="137.0" prefHeight="96.0" prefWidth="230.0" />
+                              <ImageView fx:id="poster" fitHeight="174.0" fitWidth="134.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                              <FlowPane fx:id="oscarStatuettes" layoutX="164.0" layoutY="103.0" prefHeight="96.0" prefWidth="272.0" />
                            </children>
                         </AnchorPane>
                       <AnchorPane maxHeight="330.0" maxWidth="450.0" minHeight="330.0" minWidth="450.0" prefHeight="330.0" prefWidth="450.0">
