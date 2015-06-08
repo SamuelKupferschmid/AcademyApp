@@ -2,6 +2,7 @@ package ch.fhnw.oop2.academyApp;
 
 import ch.fhnw.oop2.academyApp.models.Model;
 import ch.fhnw.oop2.academyApp.models.Movie;
+import javafx.beans.binding.Bindings;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -10,6 +11,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.util.converter.NumberStringConverter;
 
 import java.io.File;
 import java.io.IOException;
@@ -107,13 +109,32 @@ public class Controller implements Initializable {
 
         grid.setItems(model.getMovieList());
         grid.getSelectionModel().selectedItemProperty().addListener(this::onSelectionChanged);
+
+
+        //title.textProperty().bindBidirectional(grid.getSelectionModel().selectedItemProperty(),);
+        //Bindings.bindBidirectional(title, grid.getSelectionModel().selectionModeProperty());
     }
 
     private void onSelectionChanged(ObservableValue<? extends Movie> observable, Movie oldValue, Movie newValue) {
+
+        if (oldValue != null) {
+            title.textProperty().unbindBidirectional(oldValue.titleProperty());
+            director.textProperty().unbindBidirectional(oldValue.directorProperty());
+            mainactor.textProperty().unbindBidirectional(oldValue.mainActorProperty());
+            fsk.textProperty().unbindBidirectional(oldValue.fskProperty());
+            oscarCnt.valueProperty().unbindBidirectional(oldValue.oscarCntProperty());
+            yearOfAward.textProperty().unbindBidirectional(oldValue.yearOfAwardProperty());
+            yearOfProduction.textProperty().unbindBidirectional(oldValue.yearOfProductionProperty());
+            oscarCnt.valueProperty().unbindBidirectional(oldValue.oscarCntProperty());
+        }
+
         title.textProperty().bindBidirectional(newValue.titleProperty());
         director.textProperty().bindBidirectional(newValue.directorProperty());
         mainactor.textProperty().bindBidirectional(newValue.mainActorProperty());
-
+        fsk.textProperty().bindBidirectional(newValue.fskProperty(), new NumberStringConverter());
+        oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
+        yearOfAward.textProperty().bindBidirectional(newValue.yearOfAwardProperty(), new NumberStringConverter("####"));
+        yearOfProduction.textProperty().bindBidirectional(newValue.yearOfProductionProperty(), new NumberStringConverter("####"));
         oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
     }
 
