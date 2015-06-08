@@ -43,7 +43,7 @@ public class ModelTest extends TestCase {
 
     public void testLoadFromCsv_LoadsAll() throws Exception {
 
-        if(!model.loadFromCsv(csv)){
+        if(model.loadFromCsv(csv) < 0){
             fail("CSV not loaded");
         }
         ObservableList<Movie> list = model.getMovieList();

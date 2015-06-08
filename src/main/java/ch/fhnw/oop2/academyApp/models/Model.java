@@ -75,9 +75,9 @@ public class Model {
         return movies;
     }
 
-    public boolean loadFromCsv(@NotNull File file) {
+    public long loadFromCsv(@NotNull File file) {
         if(!file.exists()){
-            return false;
+            return -1;
         }
         List<Movie> movies = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
@@ -86,7 +86,7 @@ public class Model {
             while ((line = br.readLine()) != null) {
                 String[] splits = line.split(";");
                 if(splits.length != 13){
-                    return false;
+                    return -1;
                 }
                 Movie m = new Movie();
                 m.titleProperty().set(splits[1]);
@@ -107,12 +107,12 @@ public class Model {
 
             getMovieList().addAll(movies);
 
-            return true;
+            return movies.stream().count();
 
         } catch (FileNotFoundException e) {
-            return false;
+            return -1;
         } catch (IOException e) {
-            return false;
+            return -1;
         }
     }
 

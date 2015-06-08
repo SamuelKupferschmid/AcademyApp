@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="AcademyApp">
+    <output-path>$PROJECT_DIR$/out/artifacts/AcademyApp</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="ch.fhnw.oop2.academyApp.Main" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="paramFile" value="" />
+        <option name="title" value="AcademyApp" />
+        <option name="vendor" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="AcademyApp.jar">
+        <element id="module-output" name="AcademyApp" />
+      </element>
+    </root>
+  </artifact>
+</component>

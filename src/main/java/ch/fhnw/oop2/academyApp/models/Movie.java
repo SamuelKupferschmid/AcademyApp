@@ -71,11 +71,31 @@ public class Movie implements Externalizable {
     public void writeExternal(ObjectOutput out) throws IOException {
         out.writeUTF(title.get());
         out.writeInt(yearOfAward.get());
+        out.writeUTF(director.get());
+        out.writeUTF(mainActor.get());
+        out.writeUTF(titleEnglish.get());
+
+        out.writeInt(yearOfProduction.get());
+        out.writeUTF(country.get());
+        out.writeInt(duration.get());
+        out.writeInt(fsk.get());
+
+        out.writeInt(oscarCnt.get());
     }
 
     @Override
     public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
         title.set(in.readUTF());
         yearOfAward.setValue(in.readInt());
+        director.set(in.readUTF());
+        mainActor.set(in.readUTF());
+        titleEnglish.set(in.readUTF());
+
+        yearOfProduction.set(in.readInt());
+        country.set(in.readUTF());
+        duration.set(in.readInt());
+        fsk.set(in.readInt());
+
+        oscarCnt.set(in.readInt());
     }
 }

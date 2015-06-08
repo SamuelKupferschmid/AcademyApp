@@ -31,7 +31,6 @@ public class Controller implements Initializable {
 
     public Controller() {
         model = new Model(new File("main/java/ch/fhnw/oop2/academyApp/movies.dat"));
-        model.loadFromCsv(new File("test/resources/movies.csv"));
     }
 
     @FXML
@@ -136,14 +135,16 @@ public class Controller implements Initializable {
             oscarCnt.valueProperty().unbindBidirectional(oldValue.oscarCntProperty());
         }
 
-        title.textProperty().bindBidirectional(newValue.titleProperty());
-        director.textProperty().bindBidirectional(newValue.directorProperty());
-        mainactor.textProperty().bindBidirectional(newValue.mainActorProperty());
-        fsk.textProperty().bindBidirectional(newValue.fskProperty(), new NumberStringConverter());
-        oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
-        yearOfAward.textProperty().bindBidirectional(newValue.yearOfAwardProperty(), new NumberStringConverter("####"));
-        yearOfProduction.textProperty().bindBidirectional(newValue.yearOfProductionProperty(), new NumberStringConverter("####"));
-        oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
+        if(newValue != null) {
+            title.textProperty().bindBidirectional(newValue.titleProperty());
+            director.textProperty().bindBidirectional(newValue.directorProperty());
+            mainactor.textProperty().bindBidirectional(newValue.mainActorProperty());
+            fsk.textProperty().bindBidirectional(newValue.fskProperty(), new NumberStringConverter());
+            oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
+            yearOfAward.textProperty().bindBidirectional(newValue.yearOfAwardProperty(), new NumberStringConverter("####"));
+            yearOfProduction.textProperty().bindBidirectional(newValue.yearOfProductionProperty(), new NumberStringConverter("####"));
+            oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
+        }
     }
 
     @FXML
@@ -152,6 +153,7 @@ public class Controller implements Initializable {
         fc.setTitle("Import .csv File");
         fc.setSelectedExtensionFilter(new FileChooser.ExtensionFilter(".csv-File","csv"));
         File file = fc.showOpenDialog(stage);
+        model.loadFromCsv(file);
     }
 
     @FXML
@@ -183,7 +185,6 @@ public class Controller implements Initializable {
     public void saveModel() {
         try {
             model.save();
-            new File("main/java/ch/fhnw/oop2/academyApp/movies.dat").delete();
         } catch (IOException e) {
             e.printStackTrace();
         }
