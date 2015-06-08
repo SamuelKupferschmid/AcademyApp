@@ -1,5 +1,6 @@
 package ch.fhnw.oop2.academyApp;
 
+import com.sun.jndi.toolkit.url.Uri;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
