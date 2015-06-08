@@ -14,38 +14,22 @@
         <items>
           <Button maxHeight="36.0" maxWidth="36.0" minHeight="36.0" minWidth="36.0" mnemonicParsing="false" onAction="#saveBtnClick" prefHeight="36.0" prefWidth="36.0">
                <graphic>
-                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@/../../resources/icons/Save.png" />
-                     </image>
-                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
             <Button maxHeight="36.0" maxWidth="36.0" minHeight="36.0" minWidth="36.0" mnemonicParsing="false" onAction="#newBtnClick" prefHeight="36.0" prefWidth="36.0">
                <graphic>
-                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../resources/icons/Plus.png" />
-                     </image>
-                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
             <Button maxHeight="36.0" maxWidth="36.0" minHeight="36.0" minWidth="36.0" mnemonicParsing="false" onAction="#deleteBtnClick" prefHeight="36.0" prefWidth="36.0">
                <graphic>
-                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../resources/icons/Minus.png" />
-                     </image>
-                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
             <Button fx:id="importBtn" maxHeight="36.0" maxWidth="36.0" minHeight="36.0" minWidth="36.0" mnemonicParsing="false" onAction="#importBtnClick" prefHeight="36.0" prefWidth="36.0">
                <graphic>
-                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../resources/icons/ic_export_import.png" />
-                     </image>
-                  </ImageView>
+                  <ImageView fitHeight="36.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" />
                </graphic>
             </Button>
         </items>
