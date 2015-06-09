@@ -11,7 +11,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598432b3-cd84-4815-a59f-c4679f0fc700" name="Default" comment="added Unit Test">
+    <list default="true" id="598432b3-cd84-4815-a59f-c4679f0fc700" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AcademyApp.iws" />
@@ -1720,7 +1720,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433800517648</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added Unit Test">
+      <created>1433846291435</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1433846291435</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -2290,6 +2296,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6699715">
           <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
