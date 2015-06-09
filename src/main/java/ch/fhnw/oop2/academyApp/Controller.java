@@ -210,7 +210,6 @@ public class Controller implements Initializable {
             country.textProperty().unbindBidirectional(oldValue.countryProperty());
             yearOfAward.textProperty().unbindBidirectional(oldValue.yearOfAwardProperty());
             yearOfProduction.textProperty().unbindBidirectional(oldValue.yearOfProductionProperty());
-            oscarCnt.valueProperty().unbindBidirectional(oldValue.oscarCntProperty());
             releaseDatePicker.valueProperty().unbindBidirectional(oldValue.releaseProperty());
         }
 
@@ -225,7 +224,6 @@ public class Controller implements Initializable {
             country.textProperty().bindBidirectional(newValue.countryProperty());
             yearOfAward.textProperty().bindBidirectional(newValue.yearOfAwardProperty(), new NumberStringConverter("####"));
             yearOfProduction.textProperty().bindBidirectional(newValue.yearOfProductionProperty(), new NumberStringConverter("####"));
-            oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
             releaseDatePicker.valueProperty().bindBidirectional(newValue.releaseProperty());
         }
         String path = "/poster/" + newValue.imageFilename().get();
