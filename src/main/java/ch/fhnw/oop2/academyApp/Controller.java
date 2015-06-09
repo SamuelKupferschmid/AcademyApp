@@ -155,7 +155,7 @@ public class Controller implements Initializable {
             releaseDatePicker.valueProperty().bindBidirectional(newValue.releaseProperty());
         }
         String path = "/poster/" + newValue.imageFilename().get();
-        if (path != null) {
+        if (path != null && getClass().getResource(path) != null) {
             File file = new File(getClass().getResource(path).getFile());
             if (file.exists()) {
                 try {
