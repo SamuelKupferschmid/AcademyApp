@@ -17,6 +17,7 @@ import javafx.stage.Stage;
 import javafx.util.converter.NumberStringConverter;
 
 import java.io.*;
+import java.net.URI;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -105,13 +106,16 @@ public class Controller implements Initializable {
     @FXML
     private DatePicker releaseDatePicker;
 
+    @FXML
+    private ImageView countryFlag;
+
     private Image oscarImg;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
         try {
-            oscarImg = new Image (new FileInputStream(getClass().getResource("/oscar.png").getFile()));
+            oscarImg = new Image(new FileInputStream(getClass().getResource("/oscar.png").getFile()));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -144,13 +148,36 @@ public class Controller implements Initializable {
     }
 
     private void onCountryChanged(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+
+        boolean success = false;
+        try {
+            URL path = getClass().getResource("/flags_iso/24/" + ("" + newValue).toLowerCase() + ".png");
+
+            if (path == null) {
+                return;
+            }
+
+            File f = new File(path.getFile());
+
+            if (f.exists()) {
+                Image flag = new Image(path.getFile());
+                countryFlag.setImage(flag);
+                success = true;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        if (!success) {
+            countryFlag.setImage(new Image(getClass().getResource("/flags_iso/24/empty.png").getFile()));
+        }
     }
 
     private void onOscarCntChanged(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
 
         oscarStatuettes.getChildren().clear();
 
-        for(int i = newValue.intValue(); i > 0; i--) {
+        for (int i = newValue.intValue(); i > 0; i--) {
             oscarStatuettes.getChildren().add(new ImageView(oscarImg));
         }
     }
