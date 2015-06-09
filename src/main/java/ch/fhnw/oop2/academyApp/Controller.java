@@ -109,6 +109,9 @@ public class Controller implements Initializable {
     @FXML
     private ImageView countryFlag;
 
+    @FXML
+    private Label titleTall;
+
     private Image oscarImg;
 
     @Override
@@ -120,6 +123,7 @@ public class Controller implements Initializable {
             e.printStackTrace();
         }
 
+        country.textProperty().addListener(this::onCountryChanged);
         oscarCnt.valueProperty().addListener(this::onOscarCntChanged);
 
         titleCol.setCellValueFactory(new PropertyValueFactory("title"));
@@ -143,7 +147,7 @@ public class Controller implements Initializable {
             grid.getSelectionModel().select(model.getMovieList().get(0));
         }
 
-        country.textProperty().addListener(this::onCountryChanged);
+        titleTall.textProperty().bindBidirectional(title.textProperty());
 
     }
 
@@ -153,23 +157,30 @@ public class Controller implements Initializable {
         try {
             URL path = getClass().getResource("/flags_iso/24/" + ("" + newValue).toLowerCase() + ".png");
 
-            if (path == null) {
-                return;
-            }
+            if (path != null) {
 
-            File f = new File(path.getFile());
+                File f = new File(path.getFile());
 
-            if (f.exists()) {
-                Image flag = new Image(path.getFile());
-                countryFlag.setImage(flag);
-                success = true;
+                if (f.exists()) {
+                    FileInputStream stream = new FileInputStream(path.getFile());
+                    Image flag = new Image(stream);
+                    countryFlag.setImage(flag);
+                    success = true;
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         if (!success) {
-            countryFlag.setImage(new Image(getClass().getResource("/flags_iso/24/empty.png").getFile()));
+            //use empty Image
+            FileInputStream stream = null;
+            try {
+                stream = new FileInputStream(getClass().getResource("/flags_iso/24/empty.png").getFile());
+                countryFlag.setImage(new Image(stream));
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -193,7 +204,10 @@ public class Controller implements Initializable {
             director.textProperty().unbindBidirectional(oldValue.directorProperty());
             mainactor.textProperty().unbindBidirectional(oldValue.mainActorProperty());
             fsk.textProperty().unbindBidirectional(oldValue.fskProperty());
+            duration.textProperty().unbindBidirectional(oldValue.durationProperty());
             oscarCnt.valueProperty().unbindBidirectional(oldValue.oscarCntProperty());
+            genre.textProperty().unbindBidirectional(oldValue.genreProperty());
+            country.textProperty().unbindBidirectional(oldValue.countryProperty());
             yearOfAward.textProperty().unbindBidirectional(oldValue.yearOfAwardProperty());
             yearOfProduction.textProperty().unbindBidirectional(oldValue.yearOfProductionProperty());
             oscarCnt.valueProperty().unbindBidirectional(oldValue.oscarCntProperty());
@@ -205,7 +219,10 @@ public class Controller implements Initializable {
             director.textProperty().bindBidirectional(newValue.directorProperty());
             mainactor.textProperty().bindBidirectional(newValue.mainActorProperty());
             fsk.textProperty().bindBidirectional(newValue.fskProperty(), new NumberStringConverter());
+            duration.textProperty().bindBidirectional(newValue.durationProperty(), new NumberStringConverter());
             oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
+            genre.textProperty().bindBidirectional(newValue.genreProperty());
+            country.textProperty().bindBidirectional(newValue.countryProperty());
             yearOfAward.textProperty().bindBidirectional(newValue.yearOfAwardProperty(), new NumberStringConverter("####"));
             yearOfProduction.textProperty().bindBidirectional(newValue.yearOfProductionProperty(), new NumberStringConverter("####"));
             oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
@@ -256,21 +273,6 @@ public class Controller implements Initializable {
     private void deleteBtnClick(ActionEvent event) {
         Movie m = grid.getSelectionModel().getSelectedItem();
         grid.getItems().remove(m);
-    }
-
-    @FXML
-    protected void posterDropped(ActionEvent event) {
-        event.toString();
-    }
-
-    @FXML
-    protected void onDropEndEvent(ActionEvent event) {
-        System.out.println(event.toString());
-    }
-
-    @FXML
-    protected void onDragEvent(ActionEvent event) {
-        System.out.println("stuff happened");
     }
 
     /**
