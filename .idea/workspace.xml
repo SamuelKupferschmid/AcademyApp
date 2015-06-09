@@ -124,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/out/production/AcademyApp/views/main.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.655172">
-              <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+              <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -1738,7 +1738,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433846739800</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="added Unit Test">
+      <created>1433846750905</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1433846750905</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -2397,7 +2403,7 @@
     <entry file="file://$PROJECT_DIR$/out/production/AcademyApp/views/main.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.655172">
-          <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
           <folding />
         </state>
       </provider>
