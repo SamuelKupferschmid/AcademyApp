@@ -11,6 +11,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.FlowPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.util.converter.NumberStringConverter;
@@ -90,16 +91,32 @@ public class Controller implements Initializable {
     private TextField yearOfProduction;
 
     @FXML
+    private TextField country;
+
+    @FXML
     private Slider oscarCnt;
 
     @FXML
     private ImageView poster;
 
     @FXML
+    private FlowPane oscarStatuettes;
+
+    @FXML
     private DatePicker releaseDatePicker;
+
+    private Image oscarImg;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+        try {
+            oscarImg = new Image (new FileInputStream(getClass().getResource("/oscar.png").getFile()));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        oscarCnt.valueProperty().addListener(this::onOscarCntChanged);
 
         titleCol.setCellValueFactory(new PropertyValueFactory("title"));
 
@@ -121,8 +138,21 @@ public class Controller implements Initializable {
         if (model.getMovieList().size() > 0) {
             grid.getSelectionModel().select(model.getMovieList().get(0));
         }
-        //title.textProperty().bindBidirectional(grid.getSelectionModel().selectedItemProperty(),);
-        //Bindings.bindBidirectional(title, grid.getSelectionModel().selectionModeProperty());
+
+        country.textProperty().addListener(this::onCountryChanged);
+
+    }
+
+    private void onCountryChanged(ObservableValue<? extends String> observable, String oldValue, String newValue) {
+    }
+
+    private void onOscarCntChanged(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
+
+        oscarStatuettes.getChildren().clear();
+
+        for(int i = newValue.intValue(); i > 0; i--) {
+            oscarStatuettes.getChildren().add(new ImageView(oscarImg));
+        }
     }
 
     public void setStage(Stage stage) {
