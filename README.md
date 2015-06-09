@@ -10,10 +10,11 @@ Samuel Kupferschmid
 ## Features
 - MVC umgesetzt
 - Import von CSV
-- Daten werden unter movies.dat gespeichert (Binär via Reflexion)
+- Daten werden unter movies.dat gespeichert (Binär via Serializing)
 - Layout mit JavaFX
 - CRUD Operationen implementiert
 
 ## Zusatzfeatures
 - Bidirektionales Binding zwischen Master (GridView) und Details (TextFields)
 - Einfaches Binding zwischen TextFields und Summary-View
+- Serialisierung
