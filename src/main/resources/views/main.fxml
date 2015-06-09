@@ -50,7 +50,7 @@
                 </Button>
             </items>
         </ToolBar>
-        <SplitPane dividerPositions="0.4080267558528428" layoutY="49.0" prefHeight="551.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="49.0">
+        <SplitPane dividerPositions="0.4080267558528428" layoutY="49.0" prefHeight="550.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
             <items>
                 <AnchorPane>
                     <children>
@@ -72,9 +72,9 @@
                 </AnchorPane>
                 <AnchorPane maxWidth="450.0">
                     <children>
-                        <SplitPane dividerPositions="0.43029259896729777" orientation="VERTICAL" prefHeight="550.0" prefWidth="469.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <SplitPane dividerPositions="0.0" orientation="VERTICAL" prefHeight="550.0" prefWidth="469.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                             <items>
-                                <AnchorPane prefHeight="42.0" prefWidth="467.0">
+                                <AnchorPane>
                                     <children>
                                         <ImageView fx:id="poster" fitHeight="174.0" fitWidth="134.0" layoutX="14.0" layoutY="16.0" onDragDropped="#posterDropped" pickOnBounds="true" preserveRatio="true" />
                                         <FlowPane fx:id="oscarStatuettes" layoutX="164.0" layoutY="103.0" prefHeight="96.0" prefWidth="272.0" />
@@ -125,7 +125,7 @@
                                                 <Label text="Year of Production" GridPane.rowIndex="9" />
                                                 <TextField id="yearOfProduction" fx:id="yearOfProduction" GridPane.columnIndex="1" GridPane.rowIndex="9" />
                                                 <TextField id="yearOfAward" fx:id="yearOfAward" GridPane.columnIndex="1" GridPane.rowIndex="8" />
-                                                <TextArea fx:id="country" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                <TextArea fx:id="country" GridPane.columnIndex="1" GridPane.rowIndex="6" />
                                                 <DatePicker fx:id="releaseDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="10" />
                                                 <Label text="Release" GridPane.rowIndex="10" />
                                             </children>
@@ -136,6 +136,9 @@
                                     </children>
                                 </AnchorPane>
                             </items>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
                         </SplitPane>
                     </children>
                     <opaqueInsets>
