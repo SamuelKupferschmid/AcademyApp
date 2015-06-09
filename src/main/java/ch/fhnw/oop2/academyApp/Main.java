@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.net.URI;
 
 /**
  * Created by Samuel on 06/02/2015.
@@ -31,7 +32,7 @@ public class Main extends Application {
         controller = f.getController();
         controller.setStage(stage);
         Scene scene = new Scene(fxmlRoot);
-        scene.getStylesheets().add("main/resources/application.css");
+        scene.getStylesheets().add(getClass().getResource("/application.css").getFile());
         stage.setScene(scene);
         stage.show();
 
