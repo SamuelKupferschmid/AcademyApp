@@ -7,10 +7,7 @@ import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Slider;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -31,7 +28,8 @@ public class Controller implements Initializable {
     private Stage stage;
 
     public Controller() {
-        model = new Model(new File("main/java/ch/fhnw/oop2/academyApp/movies.dat"));
+        model = new Model(new File(getClass().getResource("movies.dat").getFile()));
+        model.load();
     }
 
     @FXML
@@ -97,6 +95,9 @@ public class Controller implements Initializable {
     @FXML
     private ImageView poster;
 
+    @FXML
+    private DatePicker releaseDatePicker;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
@@ -117,7 +118,9 @@ public class Controller implements Initializable {
         grid.setItems(model.getMovieList());
         grid.getSelectionModel().selectedItemProperty().addListener(this::onSelectionChanged);
 
-
+        if (model.getMovieList().size() > 0) {
+            grid.getSelectionModel().select(model.getMovieList().get(0));
+        }
         //title.textProperty().bindBidirectional(grid.getSelectionModel().selectedItemProperty(),);
         //Bindings.bindBidirectional(title, grid.getSelectionModel().selectionModeProperty());
     }
@@ -137,6 +140,7 @@ public class Controller implements Initializable {
             yearOfAward.textProperty().unbindBidirectional(oldValue.yearOfAwardProperty());
             yearOfProduction.textProperty().unbindBidirectional(oldValue.yearOfProductionProperty());
             oscarCnt.valueProperty().unbindBidirectional(oldValue.oscarCntProperty());
+            releaseDatePicker.valueProperty().unbindBidirectional(oldValue.releaseProperty());
         }
 
         if (newValue != null) {
@@ -148,11 +152,12 @@ public class Controller implements Initializable {
             yearOfAward.textProperty().bindBidirectional(newValue.yearOfAwardProperty(), new NumberStringConverter("####"));
             yearOfProduction.textProperty().bindBidirectional(newValue.yearOfProductionProperty(), new NumberStringConverter("####"));
             oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
+            releaseDatePicker.valueProperty().bindBidirectional(newValue.releaseProperty());
         }
         String path = "/poster/" + newValue.imageFilename().get();
         if (path != null) {
             File file = new File(getClass().getResource(path).getFile());
-            if ( file.exists()) {
+            if (file.exists()) {
                 try {
                     Image img = new Image(new FileInputStream(file));
                     poster.setImage(img);

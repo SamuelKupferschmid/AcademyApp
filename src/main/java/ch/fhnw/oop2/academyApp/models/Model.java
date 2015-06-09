@@ -1,12 +1,15 @@
 package ch.fhnw.oop2.academyApp.models;
 
 import com.sun.istack.internal.NotNull;
+import com.sun.org.apache.xml.internal.resolver.readers.ExtendedXMLCatalogReader;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.ListView;
 
 import java.io.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -69,14 +72,14 @@ public class Model {
     }
 
     public ObservableList<Movie> getMovieList() {
-        if(movies == null){
+        if (movies == null) {
             load();
         }
         return movies;
     }
 
     public long loadFromCsv(@NotNull File file) {
-        if(!file.exists()){
+        if (!file.exists()) {
             return -1;
         }
         List<Movie> movies = new ArrayList<>();
@@ -85,7 +88,7 @@ public class Model {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] splits = line.split(";");
-                if(splits.length != 13){
+                if (splits.length != 13) {
                     return -1;
                 }
                 Movie m = new Movie();
@@ -98,8 +101,12 @@ public class Model {
                 m.countryProperty().set(splits[7]);
                 m.durationProperty().set(Integer.valueOf(splits[8]));
                 m.fskProperty().set(Integer.valueOf(splits[9]));
-                //genre
-                //release
+                m.genreProperty().set(splits[10]);
+                try {
+                    m.releaseProperty().set(LocalDate.parse(splits[11]));
+                } catch (Exception ex){
+                }
+
                 m.oscarCntProperty().set(Integer.valueOf(splits[12]));
                 m.imageFilename().set(splits[0] + ".jpg");
                 movies.add(m);

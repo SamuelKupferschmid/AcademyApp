@@ -1,11 +1,9 @@
 package ch.fhnw.oop2.academyApp.models;
 
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
+import javafx.beans.property.*;
 
 import java.io.*;
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.EnumSet;
 
@@ -19,14 +17,14 @@ public class Movie implements Externalizable {
     private StringProperty director = new SimpleStringProperty(this, "director");
     private StringProperty mainActor = new SimpleStringProperty(this, "mainActor");
     private StringProperty titleEnglish = new SimpleStringProperty(this, "titleEnglish");
-    private EnumSet<Genre> genre;
+    private StringProperty genre = new SimpleStringProperty(this, "genre");
     private IntegerProperty yearOfProduction = new SimpleIntegerProperty(this, "yearOfProduction");
     private StringProperty country = new SimpleStringProperty(this, "country");
     private IntegerProperty duration = new SimpleIntegerProperty(this, "duration");
     private IntegerProperty fsk = new SimpleIntegerProperty(this, "fsk");
-    private Date release;
+    private ObjectProperty<LocalDate> release = new SimpleObjectProperty<>(this, "release");
     private IntegerProperty oscarCnt = new SimpleIntegerProperty(this, "oscarCnt");
-    private StringProperty imageFilename = new SimpleStringProperty(this,"imageFilename");
+    private StringProperty imageFilename = new SimpleStringProperty(this, "imageFilename");
 
     public StringProperty titleProperty() {
         return title;
@@ -64,13 +62,22 @@ public class Movie implements Externalizable {
         return fsk;
     }
 
+    public ObjectProperty<LocalDate> releaseProperty() {
+        return release;
+    }
+
     public IntegerProperty oscarCntProperty() {
         return oscarCnt;
+    }
+
+    public StringProperty genreProperty() {
+        return genre;
     }
 
     public StringProperty imageFilename() {
         return imageFilename;
     }
+
 
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
@@ -87,6 +94,12 @@ public class Movie implements Externalizable {
 
         out.writeInt(oscarCnt.get());
         out.writeUTF(imageFilename.get() + "");
+        out.writeUTF(genre.get() + "");
+        if (release.get() != null) {
+            out.writeUTF(release.get().toString() + "");
+        } else {
+            out.writeUTF("");
+        }
     }
 
     @Override
@@ -104,5 +117,11 @@ public class Movie implements Externalizable {
 
         oscarCnt.set(in.readInt());
         imageFilename.set(in.readUTF());
+        genre.set(in.readUTF());
+        try {
+            release.set(LocalDate.parse(in.readUTF()));
+        } catch (Exception ex) {
+        }
+
     }
 }
