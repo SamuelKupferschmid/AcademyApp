@@ -12,12 +12,13 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.util.converter.NumberStringConverter;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -93,6 +94,9 @@ public class Controller implements Initializable {
     @FXML
     private Slider oscarCnt;
 
+    @FXML
+    private ImageView poster;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
@@ -118,7 +122,7 @@ public class Controller implements Initializable {
         //Bindings.bindBidirectional(title, grid.getSelectionModel().selectionModeProperty());
     }
 
-    public void setStage(Stage stage){
+    public void setStage(Stage stage) {
         this.stage = stage;
     }
 
@@ -135,7 +139,7 @@ public class Controller implements Initializable {
             oscarCnt.valueProperty().unbindBidirectional(oldValue.oscarCntProperty());
         }
 
-        if(newValue != null) {
+        if (newValue != null) {
             title.textProperty().bindBidirectional(newValue.titleProperty());
             director.textProperty().bindBidirectional(newValue.directorProperty());
             mainactor.textProperty().bindBidirectional(newValue.mainActorProperty());
@@ -145,13 +149,26 @@ public class Controller implements Initializable {
             yearOfProduction.textProperty().bindBidirectional(newValue.yearOfProductionProperty(), new NumberStringConverter("####"));
             oscarCnt.valueProperty().bindBidirectional(newValue.oscarCntProperty());
         }
+        String path = "/poster/" + newValue.imageFilename().get();
+        if (path != null) {
+            File file = new File(getClass().getResource(path).getFile());
+            if ( file.exists()) {
+                try {
+                    Image img = new Image(new FileInputStream(file));
+                    poster.setImage(img);
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
+
 
     @FXML
     private void importBtnClick(ActionEvent event) {
         FileChooser fc = new FileChooser();
         fc.setTitle("Import .csv File");
-        fc.setSelectedExtensionFilter(new FileChooser.ExtensionFilter(".csv-File","csv"));
+        fc.setSelectedExtensionFilter(new FileChooser.ExtensionFilter(".csv-File", "csv"));
         File file = fc.showOpenDialog(stage);
         model.loadFromCsv(file);
     }
@@ -177,6 +194,21 @@ public class Controller implements Initializable {
     private void deleteBtnClick(ActionEvent event) {
         Movie m = grid.getSelectionModel().getSelectedItem();
         grid.getItems().remove(m);
+    }
+
+    @FXML
+    protected void posterDropped(ActionEvent event) {
+        event.toString();
+    }
+
+    @FXML
+    protected void onDropEndEvent(ActionEvent event) {
+        System.out.println(event.toString());
+    }
+
+    @FXML
+    protected void onDragEvent(ActionEvent event) {
+        System.out.println("stuff happened");
     }
 
     /**

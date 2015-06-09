@@ -101,7 +101,7 @@ public class Model {
                 //genre
                 //release
                 m.oscarCntProperty().set(Integer.valueOf(splits[12]));
-
+                m.imageFilename().set(splits[0] + ".jpg");
                 movies.add(m);
             }
 

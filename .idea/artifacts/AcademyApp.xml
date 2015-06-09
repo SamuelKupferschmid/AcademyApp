@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="javafx" build-on-make="true" name="AcademyApp">
+  <artifact type="javafx" name="AcademyApp">
     <output-path>$PROJECT_DIR$/out/artifacts/AcademyApp</output-path>
     <properties id="javafx-properties">
       <options>

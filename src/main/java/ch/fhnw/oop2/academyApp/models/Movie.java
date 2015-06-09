@@ -74,19 +74,19 @@ public class Movie implements Externalizable {
 
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
-        out.writeUTF(title.get());
+        out.writeUTF(title.get() + "");
         out.writeInt(yearOfAward.get());
-        out.writeUTF(director.get());
-        out.writeUTF(mainActor.get());
-        out.writeUTF(titleEnglish.get());
+        out.writeUTF(director.get() + "");
+        out.writeUTF(mainActor.get() + "");
+        out.writeUTF(titleEnglish.get() + "");
 
         out.writeInt(yearOfProduction.get());
-        out.writeUTF(country.get());
+        out.writeUTF(country.get() + "");
         out.writeInt(duration.get());
         out.writeInt(fsk.get());
 
         out.writeInt(oscarCnt.get());
-        out.writeUTF(imageFilename.get());
+        out.writeUTF(imageFilename.get() + "");
     }
 
     @Override

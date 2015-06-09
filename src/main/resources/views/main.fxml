@@ -76,7 +76,7 @@
                     <items>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="42.0" prefWidth="467.0">
                            <children>
-                              <ImageView fx:id="poster" fitHeight="174.0" fitWidth="134.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="poster" fitHeight="174.0" fitWidth="134.0" layoutX="14.0" layoutY="16.0" onDragDropped="#posterDropped" pickOnBounds="true" preserveRatio="true" />
                               <FlowPane fx:id="oscarStatuettes" layoutX="164.0" layoutY="103.0" prefHeight="96.0" prefWidth="272.0" />
                            </children>
                         </AnchorPane>
