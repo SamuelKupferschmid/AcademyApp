@@ -1,20 +1,17 @@
 # AcademyApp
-Diese Applikation ist als Gruppenarbeit für das Modul oop2 (Objekt-orientiertes Programmieren 2) umgesetzt worden.
+This applicatin was developed in a group for the module OOP2 (Objekt-orientiertes Programmieren 2 - object oriented programming 2)
 
-
-## Authoren
+##Authors
 Michael Ineichen
 
 Samuel Kupferschmid
 
-## Features
-- MVC umgesetzt
-- Import von CSV
-- Daten werden unter movies.dat gespeichert (Binär via Serializing)
-- Layout mit JavaFX
-- CRUD Operationen implementiert
+##Features
+- Implemented MVC
+- CSV import
+- Data is saved in movies.dat (Binary via reflexion)
+- JavaFX layout
+- CRUD operations implemented
 
-## Zusatzfeatures
-- Bidirektionales Binding zwischen Master (GridView) und Details (TextFields)
-- Einfaches Binding zwischen TextFields und Summary-View
-- Serialisierung
+##Additional Features
+- Databinding between master (GridView) and details (TextFields)
