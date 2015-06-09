@@ -26,8 +26,8 @@ public class Main extends Application {
     @Override
     public void start(final Stage stage) throws Exception
     {
-        FXMLLoader f = new FXMLLoader();
-        final Parent fxmlRoot = (Parent)f.load(new FileInputStream(new File("main/views/main.fxml")));
+        FXMLLoader f = new FXMLLoader(getClass().getResource("/views/main.fxml"));
+        final Parent fxmlRoot = (Parent)f.load();
         controller = f.getController();
         controller.setStage(stage);
         Scene scene = new Scene(fxmlRoot);

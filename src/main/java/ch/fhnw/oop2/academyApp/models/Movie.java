@@ -26,6 +26,7 @@ public class Movie implements Externalizable {
     private IntegerProperty fsk = new SimpleIntegerProperty(this, "fsk");
     private Date release;
     private IntegerProperty oscarCnt = new SimpleIntegerProperty(this, "oscarCnt");
+    private StringProperty imageFilename = new SimpleStringProperty(this,"imageFilename");
 
     public StringProperty titleProperty() {
         return title;
@@ -67,6 +68,10 @@ public class Movie implements Externalizable {
         return oscarCnt;
     }
 
+    public StringProperty imageFilename() {
+        return imageFilename;
+    }
+
     @Override
     public void writeExternal(ObjectOutput out) throws IOException {
         out.writeUTF(title.get());
@@ -81,6 +86,7 @@ public class Movie implements Externalizable {
         out.writeInt(fsk.get());
 
         out.writeInt(oscarCnt.get());
+        out.writeUTF(imageFilename.get());
     }
 
     @Override
@@ -97,5 +103,6 @@ public class Movie implements Externalizable {
         fsk.set(in.readInt());
 
         oscarCnt.set(in.readInt());
+        imageFilename.set(in.readUTF());
     }
 }
