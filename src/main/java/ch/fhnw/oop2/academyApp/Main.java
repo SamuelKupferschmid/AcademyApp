@@ -1,5 +1,6 @@
 package ch.fhnw.oop2.academyApp;
 
+import com.sun.jndi.toolkit.url.Uri;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -25,9 +26,10 @@ public class Main extends Application {
     @Override
     public void start(final Stage stage) throws Exception
     {
-        FXMLLoader f = new FXMLLoader();
-        final Parent fxmlRoot = (Parent)f.load(new FileInputStream(new File("main/views/main.fxml")));
+        FXMLLoader f = new FXMLLoader(getClass().getResource("/views/main.fxml"));
+        final Parent fxmlRoot = (Parent)f.load();
         controller = f.getController();
+        controller.setStage(stage);
         Scene scene = new Scene(fxmlRoot);
         scene.getStylesheets().add("main/resources/application.css");
         stage.setScene(scene);

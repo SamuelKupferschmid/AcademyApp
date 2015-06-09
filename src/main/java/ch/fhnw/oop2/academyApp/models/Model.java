@@ -1,5 +1,6 @@
 package ch.fhnw.oop2.academyApp.models;
 
+import com.sun.istack.internal.NotNull;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.ListView;
@@ -32,6 +33,7 @@ public class Model {
     }
 
     public boolean load() {
+
         List<Movie> movieList = null;
         try {
             if (!file.exists()) {
@@ -67,13 +69,51 @@ public class Model {
     }
 
     public ObservableList<Movie> getMovieList() {
+        if(movies == null){
+            load();
+        }
         return movies;
     }
 
-    public void loadFromCsv(String filename) {
-        File file = new File(filename);
+    public long loadFromCsv(@NotNull File file) {
+        if(!file.exists()){
+            return -1;
+        }
+        List<Movie> movies = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            br.readLine();//flush the captions
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] splits = line.split(";");
+                if(splits.length != 13){
+                    return -1;
+                }
+                Movie m = new Movie();
+                m.titleProperty().set(splits[1]);
+                m.yearOfAwardProperty().set(Integer.valueOf(splits[2]));
+                m.directorProperty().set(splits[3]);
+                m.mainActorProperty().set(splits[4]);
+                m.titleEnglishProperty().set(splits[5]);
+                m.yearOfProductionProperty().set(Integer.valueOf(splits[6]));
+                m.countryProperty().set(splits[7]);
+                m.durationProperty().set(Integer.valueOf(splits[8]));
+                m.fskProperty().set(Integer.valueOf(splits[9]));
+                //genre
+                //release
+                m.oscarCntProperty().set(Integer.valueOf(splits[12]));
 
+                movies.add(m);
+            }
 
+            getMovieList().addAll(movies);
+
+            return movies.stream().count();
+
+        } catch (FileNotFoundException e) {
+            return -1;
+        } catch (IOException e) {
+            return -1;
+        }
     }
 
 }
