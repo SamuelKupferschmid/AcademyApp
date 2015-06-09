@@ -1,5 +1,8 @@
 # AcademyApp
+Diese Applikation ist als Gruppenarbeit für das Modul oop2 (Objekt-orientiertes Programmieren 2) umgesetzt worden.
+##Authoren
 Michael Ineichen
+
 Samuel Kupferschmid
 
 ##Features
