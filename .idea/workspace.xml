@@ -169,6 +169,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="inmi" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -1763,7 +1768,13 @@
       <option name="project" value="LOCAL" />
       <updated>1433847203084</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added Unit Test">
+      <created>1433847211646</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1433847211646</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
